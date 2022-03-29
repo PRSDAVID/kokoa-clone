@@ -1,0 +1,25 @@
+.more-icons {
+  margin: 0px var(--horizontal-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px 50px 10px;
+  border-top: 1px solid rgb(81, 85, 86, 0.5);
+  border-bottom: 1px solid rgb(81, 85, 86, 0.5);
+}
+
+.more-icons__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-icons__icon i {
+  font-size: 35px;
+}
+
+.more-icons__icon span {
+  margin-top: 15px;
+  color: var(--gray);
+}

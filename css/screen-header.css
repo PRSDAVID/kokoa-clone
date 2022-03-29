@@ -1,0 +1,39 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px var(--horizontal-space);
+  position: relative;
+}
+
+.screen-header__icons span {
+  color: var(--gray);
+  margin-left: 30px;
+}
+
+.screen-header__dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
+
+.screen-header__icons .fa-slack:hover {
+  animation: rotateCog 1s linear infinite;
+}

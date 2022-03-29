@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="background-color__chat screen_chat">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Nomad Zone </span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>    
+    <header class="chat-header">
+        <div class="chat-header__column">
+            <a href="chats.html"><i class="fa-solid fa-angle-left black fa-2x"></i></a>
+        </div>
+        
+        <h1 class="chat-header__column">HTML5</h1>
+        <div class="chat-header__column">
+          <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+        </div>
+</header>
+<main class="chat-main">
+    <div class="chat-timestamp"><span> Monday, March 29, 2022</span></div>
+    <div class="message-row">
+        <img src="imgs/nico.jpeg">
+        <span class="message-sender"> Nico-bot</span>
+        <div class="message-contents">
+        <span class="message-contents__bubble-left"> Keep going! This is your last assignment:) </span>
+        </div>
+        <span class="message-contents__time-left">04:20</span>
+    </div>
+    <div class="message-row">
+        <div class="message-contents">
+        <span class="message-contents__bubble-right"> Too sleepy but I'm trying *_* </span>
+        <span class="message-contents__time-right">04:21</span>
+        </div>
+    </div>
+    <div class="message-row">
+        <img src="imgs/nico.jpeg">
+        <span class="message-sender"> Nico-bot</span>
+        <div class="message-contents">
+        <span class="message-contents__bubble-left"> Time is almost up. You need to hurry! </span>
+        </div>
+        <span class="message-contents__time-left2">04:22</span>
+    </div>
+</main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="fa-solid fa-face-grin"></i>
+            <button>
+            <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+    <span>Your screen is too big! Adjust the width of your screen. </span>
+    </div>
+     <script
+        src="https://kit.fontawesome.com/376af87e83.js"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
+</html>
+

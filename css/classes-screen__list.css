@@ -1,0 +1,44 @@
+.classes-screen__text {
+  border-top: 1px solid rgb(81, 85, 86, 0.5);
+  margin: 0px var(--horizontal-space);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.classes-screen__list {
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px 5px rgb(227, 237, 250);
+  position: relative;
+  margin: 20px var(--horizontal-space);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.classes-screen__list img {
+  position: absolute;
+  left: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.classes-screen__list h3 {
+  position: absolute;
+  left: 85px;
+}
+
+.classes-screen__list span {
+  color: gray;
+  position: absolute;
+  right: 90px;
+}
+
+.classes-screen__list h4 {
+  margin-right: 10px;
+}
+.classes-screen__list i {
+  color: gray;
+}

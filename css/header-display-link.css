@@ -1,0 +1,13 @@
+.header-display-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--grayblue);
+  padding: 12px 0px;
+}
+
+.header-display-link i {
+  margin: 0px 8px;
+  color: var(--gray);
+}

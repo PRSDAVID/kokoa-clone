@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "status-bar.css";
+
+/* screens */
+@import "welcome-header.css";
+@import "login-form.css";
+@import "nav.css";
+@import "screen-header.css";
+@import "header-display-link.css";
+@import "user-component.css";
+@import "classes-screen__list.css";
+@import "chats-screen__list.css";
+@import "find-icons.css";
+@import "recommended.css";
+@import "new-posts.css";
+@import "more-icons.css";
+@import "suggestions.css";
+@import "settings-header.css";
+@import "settings-lists.css";
+@import "chat-header.css";
+@import "chat-screen.css";
+@import "reply.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-margin {
+  margin: 25px;
+}
+
+.background-color__grayblue {
+  background-color: var(--grayblue);
+}
+
+.background-color__chat {
+  background-color: #abc1d1;
+}
+
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  top: 0;
+}
+
+@media screen and (max-width: 620px) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+#splash-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+#splash-screen {
+  background-color: lightblue;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 0.7s;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    visibility: hidden;
+  }
+}
