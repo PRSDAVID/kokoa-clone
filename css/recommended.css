@@ -1,0 +1,14 @@
+.recommended {
+  border-top: 1px solid rgb(81, 85, 86, 0.5);
+  border-bottom: 1px solid rgb(81, 85, 86, 0.5);
+  margin: 50px var(--horizontal-space) 0px var(--horizontal-space);
+  color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.recommended img {
+  width: 90vw;
+}

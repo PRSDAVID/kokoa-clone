@@ -1,0 +1,20 @@
+.settings-lists {
+  margin: 100px var(--horizontal-space);
+}
+
+.settings-lists__items {
+  align-items: center;
+  margin: 40px 5px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(81, 85, 86, 0.5);
+  font-size: 20px;
+  color: var(--gray);
+}
+
+.settings-lists__items i {
+  margin: 0px 10px;
+}
+
+.settings-lists__items span {
+  margin-left: 5px;
+}

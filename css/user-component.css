@@ -1,0 +1,23 @@
+.user-component {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--horizontal-space);
+}
+
+.user-component__column img {
+  width: 85px;
+  height: 85px;
+  border-radius: 30%;
+}
+
+.user-component__column h3 {
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.user-component__column h4 {
+  margin-left: 10px;
+  font-weight: 200;
+  color: var(--gray);
+}

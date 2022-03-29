@@ -1,0 +1,29 @@
+.chat-header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px var(--horizontal-space);
+  font-size: 15px;
+}
+
+.chat-header__column span {
+  color: var(--gray);
+  margin-left: 30px;
+}
+
+.chat-header__column {
+  width: 33%;
+}
+
+.chat-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.chat-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,27 @@
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px var(--horizontal-space);
+  position: relative;
+  font-size: 15px;
+}
+
+.settings-header__column span {
+  color: var(--gray);
+  margin-left: 30px;
+}
+
+.settings-header__column {
+  width: 33%;
+}
+
+.settings-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.settings-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
